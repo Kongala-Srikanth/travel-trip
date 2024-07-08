@@ -1,0 +1,159 @@
+.link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.sm-nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+  gap: 10px;
+  position: fixed;
+  bottom: 0;
+  height: 73px;
+  background: #ffffff;
+  border: 1px solid #d0d9e6;
+  box-shadow: 0px 7px 32px rgba(0, 0, 0, 0.05);
+  border-radius: 12px 12px 0px 0px;
+  text-align: center;
+}
+
+.sm-nav-icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px;
+  gap: 51px;
+  width: 100%;
+  height: 49px;
+  list-style-type: none;
+  margin: 0px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.sm-icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 4px;
+  margin: 0 auto;
+  width: 70px;
+  height: 49px;
+  flex: none;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.sm-nav-icons {
+  width: 24px;
+  height: 24px;
+  flex: none;
+  flex-grow: 0;
+}
+
+.sm-nav-icon-name {
+  width: 51px;
+  height: 21px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 21px;
+  letter-spacing: 0.1px;
+  color: rgba(71, 85, 105, 0.72);
+  flex: none;
+  flex-grow: 0;
+}
+
+.lg-nav-container {
+  width: 100%;
+  height: 90px;
+  background: #304766;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.lg-nav-logo {
+  font-family: 'Caveat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+}
+
+.lg-nav-home-option {
+  /* Home */
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  margin-right: 15px;
+
+  color: #ffffff;
+}
+
+.lg-nav-my-trips-option {
+  /* My Trips */
+
+  margin-left: 15px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+  letter-spacing: 0.2px;
+
+  color: #ffffff;
+}
+
+.lg-sub-nav-container {
+  display: flex;
+}
+
+.lg-nav-logout-option {
+  /* Frame 12216 */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 8px;
+  font-weight: 500;
+  width: 103px;
+  height: 48px;
+
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+@media (min-width: 768px) {
+  .sm-nav-container {
+    display: none;
+  }
+
+  .lg-nav-container {
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .sm-nav-container {
+    display: block;
+  }
+
+  .lg-nav-container {
+    display: none;
+  }
+}

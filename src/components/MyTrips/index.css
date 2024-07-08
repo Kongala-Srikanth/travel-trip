@@ -1,0 +1,105 @@
+.my-trips-container {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-trip-heading {
+  /* My Trips */
+  margin-left: 5%;
+  width: 83px;
+  height: 24px;
+  left: 6px;
+  top: 66px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #334155;
+}
+
+.no-trips-container {
+  min-height: 88vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-trip-image {
+  width: 63px;
+  height: 75px;
+  left: 148px;
+  top: 267px;
+}
+
+.no-trip-heading {
+  /* Future of Learning */
+
+  width: 147px;
+  height: 32px;
+  left: 106px;
+  top: 361.71px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+  text-align: center;
+  letter-spacing: 0.1px;
+
+  color: #191919;
+}
+
+.no-trip-description {
+  /* Future of Learning */
+
+  margin-top: 0px;
+  width: 226px;
+  height: 48px;
+  left: 67px;
+  top: 405.71px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  text-align: center;
+  letter-spacing: 0.1px;
+
+  color: rgba(25, 25, 25, 0.8);
+}
+
+.my-trip-booking-trip-btn {
+  /* Button */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+  gap: 10px;
+  border-width: 0px;
+
+  color: #ffffff;
+  width: 133px;
+  height: 32px;
+  left: 113px;
+  top: 502px;
+
+  /* Light / blue / 600 */
+  background: #2563eb;
+  /* Shadow/ Primary Button */
+  box-shadow:
+    0px 1px 0px rgba(0, 0, 0, 0.08),
+    inset 0px -1px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}

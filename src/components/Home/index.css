@@ -1,0 +1,120 @@
+.home-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 95vh;
+  background: linear-gradient(0deg, #f5f5f5, #f5f5f5), #ffffff;
+}
+
+.home-main-heading {
+  /* Travel. Relax. Memories. */
+  width: 328px;
+  height: 32px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.1px;
+
+  color: #304766;
+}
+
+.home-title-description {
+  /* With travel trip you can experience new travel and the best tourist destinations. */
+
+  width: 328px;
+  height: 64px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+
+  color: #304766;
+}
+
+.home-booking-trip-btn {
+  /* Frame 12214 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 8px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  width: 175px;
+  height: 48px;
+
+  background: #304766;
+  border-radius: 8px;
+}
+
+.home-trip-img {
+  /* image 5 */
+
+  width: 227px;
+  height: 312px;
+  order: 0;
+}
+
+.home-details-container {
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .home-details-container {
+    align-items: flex-start;
+    order: 0;
+    margin-left: 5%;
+    margin-right: 0px;
+  }
+
+  .home-trip-img {
+    order: 1;
+    /* Homepage */
+
+    position: relative;
+
+    width: 1166px;
+    height: 650px;
+    margin-right: 5%;
+    margin-left: 0px;
+    background: linear-gradient(0deg, #f5f5f5, #f5f5f5), #ffffff;
+  }
+
+  .home-main-container {
+    flex-direction: row;
+    min-height: 88vh;
+  }
+
+  .home-main-heading {
+    /* Travel. Relax. Memories. */
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 72px;
+    letter-spacing: 0.1px;
+    margin-bottom: 100px;
+    color: #304766;
+  }
+
+  .home-title-description {
+    /* With travel trip you can experience new travel and the best tourist destinations. */
+
+    width: 526px;
+    height: 74px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 37px;
+
+    letter-spacing: 0.2px;
+
+    color: #304766;
+  }
+}

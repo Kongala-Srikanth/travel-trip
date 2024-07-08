@@ -1,0 +1,161 @@
+.each-section-option {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.next-pre-btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.previous-btn {
+  /* Button */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+  gap: 10px;
+
+  width: 82px;
+  height: 32px;
+  left: calc(50% - 82px / 2 - 36px);
+  top: 230px;
+
+  /* Light / blue / 100 */
+  background: #dbeafe;
+  border-radius: 6px;
+  /* Button */
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  text-align: center;
+
+  /* Light / blue / 600 */
+  color: #2563eb;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  outline: none;
+  cursor: pointer;
+  border-width: 0px;
+  margin-top: 25px;
+}
+
+.side-bar-bg-container {
+  width: 30%;
+  height: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+  padding-top: 30px;
+}
+
+.side-bar-selection-option {
+  padding-left: 50px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.selection-number {
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #ffffff;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  margin-right: 10px;
+  font-size: 14px;
+  border: 1px solid #00000027;
+}
+
+.active-selection-number {
+  color: #ffffff;
+  background: #3b82f6;
+}
+
+.selection-option {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #334155;
+}
+
+.active-selection-option {
+  color: #3b82f6;
+}
+
+.success-tick-mark {
+  /* vuesax/bulk/tick-circle */
+
+  width: 32px;
+  height: 32px;
+  left: 0px;
+  top: 0px;
+  margin-right: 10px;
+}
+
+.sm-side-bar-selection-option {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .side-bar-bg-container {
+    width: 100%;
+  }
+
+  .side-bar-selection-option {
+    display: none;
+  }
+
+  .sm-side-bar-selection-option {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 7px;
+    position: fixed;
+    top: 0;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .active-line {
+    /* Drag handle */
+    font-size: 0px;
+    min-width: 60px;
+    max-width: 70px;
+    height: 4px;
+    background-color: #e7e7e7;
+    border-radius: 12px;
+
+    /* Inside auto layout */
+    flex: none;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  .active-line-color {
+    background-color: #2563eb;
+  }
+}

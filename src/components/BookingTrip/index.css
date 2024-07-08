@@ -1,0 +1,186 @@
+.booking-trip-main-container {
+  background-color: #f1f5f9;
+  height: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lg-booking-container {
+  width: 90%;
+  height: 70%;
+  display: flex;
+}
+
+.lg-container {
+  display: block;
+}
+
+@media (min-width: 1200px) {
+  .lg-booking-container {
+    width: 75%;
+  }
+}
+
+.booking-section-bg-container {
+  background-color: #304766;
+  height: 100%;
+  width: 80%;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+  overflow: auto;
+}
+
+.booking-trip-heading {
+  /* Your Details */
+
+  height: 29px;
+  left: 582px;
+  top: 62px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  text-align: center;
+
+  /* Light / blue-gray / 100 */
+  color: #f1f5f9;
+}
+
+.booking-trip-description {
+  /* Enter your name and location details */
+
+  height: 24px;
+  left: 513px;
+  top: 99px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+
+  /* Light / blue-gray / 100 */
+  color: #f1f5f9;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.booking-form-container {
+  /* Rectangle 1281 */
+
+  width: 448px;
+  min-height: 166px;
+  padding: 20px;
+  margin: 20px;
+  left: 428px;
+  top: 163px;
+  overflow: auto;
+
+  background: #ffffff;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-container {
+  display: block;
+}
+
+.lg-side-bar-hide {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .sm-side-bar-container {
+    display: none;
+  }
+
+  .small-container {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .lg-side-bar-hide {
+    display: none;
+  }
+
+  .lg-container {
+    display: none;
+  }
+
+  .lg-booking-container {
+    display: initial;
+  }
+
+  .booking-form-container {
+    padding: 10px;
+    margin: 0px;
+  }
+
+  .booking-trip-main-container {
+    min-height: 93vh;
+    background-color: #ffffff;
+    padding: 15px;
+    align-items: flex-start;
+    margin-top: 45px;
+    justify-content: flex-start;
+    display: initial;
+  }
+
+  .booking-section-bg-container {
+    background-color: #ffffff;
+    width: 100%;
+    align-items: initial;
+    overflow: hidden;
+    padding: 0px;
+  }
+
+  .booking-trip-heading {
+    /* Your Details */
+    padding: 0px 25px;
+    margin-top: 65px;
+    height: 32px;
+    left: 16px;
+    top: 100px;
+    text-align: left;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    /* identical to box height, or 160% */
+    letter-spacing: 0.1px;
+
+    color: #334155;
+  }
+
+  .booking-trip-description {
+    /* Enter your name and location details */
+    padding: 0px 25px;
+    height: 24px;
+    left: 16px;
+    top: 140px;
+    text-align: left;
+
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.2px;
+
+    color: #5c6777;
+  }
+}

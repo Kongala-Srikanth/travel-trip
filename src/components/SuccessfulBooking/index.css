@@ -1,0 +1,110 @@
+.successfully-booking {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .successfully-booking {
+    height: 80vh;
+
+    width: 100vw;
+  }
+}
+
+.successfully-tick-mark {
+  /* vuesax/bulk/tick-circle */
+  align-self: center;
+  width: 64px;
+  height: 64px;
+  left: 194px;
+  top: 48px;
+}
+
+.awesome-heading {
+  /* Awesome! */
+
+  text-align: center;
+  width: 121px;
+  height: 32px;
+  left: calc(50% - 121px / 2);
+  top: 128px;
+
+  /* text-2xl / leading-8 / font-semibold */
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  /* Light / blue-gray / 700 */
+  color: #334155;
+}
+
+.successfully-description {
+  /* and many more... */
+
+  width: 227px;
+  height: 20px;
+  left: calc(50% - 227px / 2);
+  top: 168px;
+
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  text-align: center;
+
+  color: #475569;
+}
+
+.new-booking-btn {
+  /* Button */
+
+  /* text-sm / leading-5 / font-medium */
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  text-align: center;
+
+  /* Light / base / white */
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  /* Button */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+  gap: 10px;
+
+  outline: none;
+  cursor: pointer;
+  border-width: 0px;
+  width: 133px;
+  height: 32px;
+  left: calc(50% - 133px / 2);
+  top: 220px;
+
+  /* Light / blue / 600 */
+  background: #2563eb;
+  /* Shadow/ Primary Button */
+  box-shadow:
+    0px 1px 0px rgba(0, 0, 0, 0.08),
+    inset 0px -1px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}

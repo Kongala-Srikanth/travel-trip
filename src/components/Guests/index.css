@@ -1,0 +1,109 @@
+.age-booking-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.no-of-booking-seats-containter {
+  display: flex;
+  align-items: center;
+}
+
+.age-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-height: 700px) {
+  .age-container {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .age-container {
+    width: 100vw;
+    padding: 0px 25px;
+  }
+}
+.age-type-heading {
+  /* Adults */
+
+  left: 0%;
+  right: 59.26%;
+  top: 0%;
+  bottom: 54.55%;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+
+  /* text-sm / leading-5 / font-semibold */
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  /* identical to box height, or 143% */
+  text-align: right;
+
+  /* Light / blue-gray / 700 */
+  color: #334155;
+}
+
+.age-details-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.age-heading {
+  /* Age 13 or above */
+
+  left: 0%;
+  right: 0%;
+  top: 54.55%;
+  bottom: 0%;
+  margin-top: 8px;
+
+  /* text-sm / leading-5 / font-normal */
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  text-align: right;
+
+  /* Light / blue-gray / 600 */
+  color: #475569;
+}
+
+.inc-dec-icons {
+  width: 32px;
+  height: 32px;
+  left: 0px;
+  top: 0px;
+  font-size: 18px;
+  box-sizing: border-box;
+  right: 0%;
+  bottom: 0%;
+  background: #ffffff;
+  border: 1px solid #53535767;
+  border-radius: 50%;
+}
+
+.no-of-seats {
+  left: 45.28%;
+  right: 45.28%;
+  top: 6.25%;
+  bottom: 6.25%;
+  font-size: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #53535737;
+  width: 100%;
+  margin: 5px auto;
+}
